@@ -3,23 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_routes">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.pribus.driver.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_routes"
+        android:name="com.pribus.driver.ui.routes.RoutesListFragment"
+        android:label="fragment_routes_list"
+        tools:layout="@layout/fragment_routes_list" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.pribus.driver.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_fleet"
+        android:name="com.pribus.driver.ui.FleetFragment"
+        android:label="fragment_fleet"
+        tools:layout="@layout/fragment_fleet" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.pribus.driver.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_billing"
+        android:name="com.pribus.driver.ui.billing.BillingHomeFragment"
+        android:label="fragment_billing_home"
+        tools:layout="@layout/fragment_billing_home" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.pribus.driver.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_rates"
+        android:name="com.pribus.driver.ui.rating.RatingFragment"
+        android:label="fragment_rate_list"
+        tools:layout="@layout/fragment_rate_list" />
 </navigation>
