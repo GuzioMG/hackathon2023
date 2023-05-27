@@ -10,5 +10,7 @@ public class SQLiteOpenHelper {
 
         public static final String TB_USER = "Users";
 
+        //what the fuck is going on
+
     }
 }
