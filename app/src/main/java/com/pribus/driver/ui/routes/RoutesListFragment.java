@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,14 +53,13 @@ public class RoutesListFragment extends Fragment {
         return fragment;
     }
 
-    public void hide_s1(View v){
-        MainActivity.i.bottom.setVisibility(View.INVISIBLE);
-    }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MainActivity.i.bottom = (ImageView) MainActivity.i.findViewById(R.id.fuckthismap);
+        //MainActivity.i.bottom = (ImageView) MainActivity.i.findViewById(R.id.fuckthismap);
+        Log.i("UI","View found!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         /*MainActivity.i.bottom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,6 +1,8 @@
 package com.pribus.driver;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
@@ -17,12 +19,17 @@ import com.pribus.driver.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    public static MainActivity i;
-    public ImageView bottom;
+    public void hide_s1(View v){
+        Log.i("UI","Method found!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
+        ImageView bottom = findViewById(R.id.fuckthismap);
+        Log.i("UI","Ma[ found!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
+        bottom.setVisibility(View.INVISIBLE);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        this.i = this;
+        //this.i = this;
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
