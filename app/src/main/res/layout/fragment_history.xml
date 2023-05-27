@@ -13,6 +13,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/history" />
+        app:srcCompat="@drawable/historia" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
