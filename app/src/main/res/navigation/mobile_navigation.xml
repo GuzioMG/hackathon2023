@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/navigation_billing"
         android:name="com.pribus.driver.ui.BillingFragment"
-        android:label="Finanse - Balans konta: 12 836,50 zł"
+        android:label="Finanse - Balans konta: 12 836 zł"
         tools:layout="@layout/fragment_billing" />
 
     <fragment
