@@ -9,14 +9,14 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp">
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="graefgrtgrrthgrrth"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="900px"
+        android:layout_height="650px"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map_blue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
