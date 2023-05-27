@@ -31,7 +31,7 @@
 
     <fragment
         android:id="@+id/navigation_rates"
-        android:name="com.pribus.driver.ui.rating.RatingFragment"
+        android:name="com.pribus.driver.ui.FuckingRAPING"
         android:label="Oceny - Średnia: 4,33 / 5"
         tools:layout="@layout/fragment_rate_list" />
 </navigation>
