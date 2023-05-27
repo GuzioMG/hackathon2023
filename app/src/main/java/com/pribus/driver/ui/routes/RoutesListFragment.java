@@ -51,6 +51,10 @@ public class RoutesListFragment extends Fragment {
         return fragment;
     }
 
+    public void hide_s1(View v){
+        MainActivity.i.bottom.setVisibility(View.INVISIBLE);
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
