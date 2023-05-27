@@ -8,6 +8,9 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Debug;
+import android.util.DebugUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -66,6 +69,9 @@ public class RoutesListFragment extends Fragment {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
             recyclerView.setAdapter(new RoutesListFragmentViewModel(PlaceholderContent.ITEMS));
+        }
+        else {
+            Log.e("HOME", "Twój wiev to nie lista!!!!!!!!!!!!!!!!!!!!");
         }
         return view;
     }

@@ -38,7 +38,7 @@ public class PlaceholderContent {
     }
 
     private static PlaceholderItem createPlaceholderItem(int position) {
-        return new PlaceholderItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new PlaceholderItem(""+position, position+".5.2023", "Trasa " + position, "Wrumwrum", "Wypierdzisz Wielki", "Wypierdzisz Mały", position);
     }
 
     private static String makeDetails(int position) {
@@ -54,19 +54,22 @@ public class PlaceholderContent {
      * A placeholder item representing a piece of content.
      */
     public static class PlaceholderItem {
+        public final String date;
+        public final String trasa;
+        public final String pojazd;
+        public final String in;
+        public final String out;
+        public final String ocena;
         public final String id;
-        public final String content;
-        public final String details;
 
-        public PlaceholderItem(String id, String content, String details) {
+        public PlaceholderItem(String id, String date, String trasa, String pojazd, String in, String out, int ocena) {
+            this.date = date;
+            this.trasa = trasa;
+            this.pojazd = pojazd;
+            this.in = in;
+            this.out = out;
+            this.ocena = ocena + "/5";
             this.id = id;
-            this.content = content;
-            this.details = details;
-        }
-
-        @Override
-        public String toString() {
-            return content;
         }
     }
 }

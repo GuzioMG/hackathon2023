@@ -34,8 +34,12 @@ public class RatingFragmentViewModel extends RecyclerView.Adapter<RatingFragment
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
+        holder.mDateView.setText(mValues.get(position).date);
+        holder.mTrasaView.setText(mValues.get(position).trasa);
+        holder.mPojazdView.setText(mValues.get(position).pojazd);
+        holder.mInView.setText(mValues.get(position).in);
+        holder.mOutView.setText(mValues.get(position).out);
+        holder.mOcenaView.setText(mValues.get(position).ocena);
     }
 
     @Override
@@ -44,19 +48,22 @@ public class RatingFragmentViewModel extends RecyclerView.Adapter<RatingFragment
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        public final TextView mIdView;
-        public final TextView mContentView;
+        public final TextView mDateView;
+        public final TextView mTrasaView;
+        public final TextView mPojazdView;
+        public final TextView mInView;
+        public final TextView mOutView;
+        public final TextView mOcenaView;
         public PlaceholderItem mItem;
 
         public ViewHolder(FragmentRateEntryBinding binding) {
             super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
-        }
-
-        @Override
-        public String toString() {
-            return super.toString() + " '" + mContentView.getText() + "'";
+            mDateView = binding.date;
+            mTrasaView = binding.trasa;
+            mPojazdView = binding.pojazd;
+            mInView = binding.in;
+            mOutView = binding.out;
+            mOcenaView = binding.ocena;
         }
     }
 }
