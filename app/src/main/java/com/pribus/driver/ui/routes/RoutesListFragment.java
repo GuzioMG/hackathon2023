@@ -58,14 +58,7 @@ public class RoutesListFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //MainActivity.i.bottom = (ImageView) MainActivity.i.findViewById(R.id.fuckthismap);
         Log.i("UI","View found!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        /*MainActivity.i.bottom.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MainActivity.i.bottom.setVisibility(View.INVISIBLE);
-            }
-        });*/
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);

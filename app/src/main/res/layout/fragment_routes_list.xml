@@ -5,39 +5,182 @@
     android:id="@+id/listbox"
     android:name="com.pribus.driver.ui.routes.RoutesListFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/fuckthismap"
+        android:id="@+id/map0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="hide_s1"
+        android:onClick="nextsld"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fleet" />
 
-    <!--ImageButton
-        android:id="@+id/map_layer2"
-        android:layout_width="900px"
-        android:layout_height="650px"
+    <ImageView
+        android:id="@+id/map1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/map_red" />
+        app:srcCompat="@drawable/fleet" />
 
-    <ImageButton
-        android:id="@+id/fuckthismap"
-        android:layout_width="900px"
-        android:layout_height="650px"
+    <ImageView
+        android:id="@+id/map2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/map_blue" /-->
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
+
+    <ImageView
+        android:id="@+id/map15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextsld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fleet" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
