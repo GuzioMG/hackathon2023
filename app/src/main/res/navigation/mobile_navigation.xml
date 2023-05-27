@@ -14,24 +14,24 @@
     <fragment
         android:id="@+id/navigation_fleet"
         android:name="com.pribus.driver.ui.FleetFragment"
-        android:label="Flota - X pojazdy"
+        android:label="Flota - 6 pojazdów"
         tools:layout="@layout/fragment_fleet" />
 
     <fragment
         android:id="@+id/navigation_billing"
         android:name="com.pribus.driver.ui.BillingFragment"
-        android:label="Finanse - Balans konta: XXzł"
+        android:label="Finanse - Balans konta: 12 836,50 zł"
         tools:layout="@layout/fragment_billing" />
 
     <fragment
         android:id="@+id/navigation_history"
         android:name="com.pribus.driver.ui.HistoryFragment"
-        android:label="Punktualność - Ocena: _X"
+        android:label="Historia twoich przejazdów"
         tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_rates"
         android:name="com.pribus.driver.ui.rating.RatingFragment"
-        android:label="Oceny - Średnia: X/10"
+        android:label="Oceny - Średnia: 4,33 / 5"
         tools:layout="@layout/fragment_rate_list" />
 </navigation>
