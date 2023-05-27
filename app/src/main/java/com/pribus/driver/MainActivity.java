@@ -2,6 +2,7 @@ package com.pribus.driver;
 
 import android.os.Bundle;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     public static MainActivity i;
-    public ImageButton bottom;
+    public ImageView bottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

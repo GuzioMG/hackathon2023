@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.pribus.driver.MainActivity;
 import com.pribus.driver.R;
@@ -53,17 +54,17 @@ public class RoutesListFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*MainActivity.i.bottom = (ImageButton) MainActivity.i.findViewById(R.id.fuckthismap);
-        MainActivity.i.bottom.setOnClickListener(new View.OnClickListener() {
+        MainActivity.i.bottom = (ImageView) MainActivity.i.findViewById(R.id.fuckthismap);
+        /*MainActivity.i.bottom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 MainActivity.i.bottom.setVisibility(View.INVISIBLE);
             }
-        });
+        })*/
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-        }*/
+        }
     }
 
     @Override
