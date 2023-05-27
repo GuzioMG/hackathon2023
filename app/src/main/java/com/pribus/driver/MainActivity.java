@@ -1,6 +1,7 @@
 package com.pribus.driver;
 
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -15,9 +16,12 @@ import com.pribus.driver.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    public static MainActivity i;
+    public ImageButton bottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.i = this;
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());

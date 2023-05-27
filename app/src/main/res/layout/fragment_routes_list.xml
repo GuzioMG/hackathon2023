@@ -9,14 +9,24 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp">
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <!--ImageButton
+        android:id="@+id/map_layer2"
         android:layout_width="900px"
         android:layout_height="650px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/map_blue" />
+        app:srcCompat="@drawable/map_red" />
+
+    <ImageButton
+        android:id="@+id/fuckthismap"
+        android:layout_width="900px"
+        android:layout_height="650px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map_blue" /-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
